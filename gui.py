@@ -6,7 +6,6 @@ window.title("The Slightly Annoying Prog (Beta)")
 window.geometry("350x250")
 
 def scripts():
-    #tkMessageBox.showinfo("Hello Python", "Hello World!")
     import loop_scripts
 
 button = Tkinter.Button(window, text = "Click here to start", command = scripts)

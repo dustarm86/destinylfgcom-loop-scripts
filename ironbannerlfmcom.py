@@ -24,7 +24,7 @@ mic_select = browser.find_element_by_xpath(".//*[@id='listGuardian']/div[6]/div[
 i_am_lfm = browser.find_element_by_xpath(".//*[@id='selectLF']/option[3]").click()
 
 # choose activity from list
-select_activity = browser.find_element_by_xpath(".//*[@id='selectActivity']/optgroup[8]/option[3]").click()
+select_activity = browser.find_element_by_xpath(".//*[@id='selectActivity']/optgroup[7]/option[3]").click()
 
 # write description for activity chosen
 description = browser.find_element_by_xpath(".//*[@id='textComment']")
@@ -39,4 +39,4 @@ print("Script completed at:")
 print datetime.datetime.now()
 print("Opening next script now...\n")
 
-import toolfmcom
+#import toolfmcom

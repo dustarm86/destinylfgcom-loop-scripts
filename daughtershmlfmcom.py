@@ -24,19 +24,19 @@ mic_select = browser.find_element_by_xpath(".//*[@id='listGuardian']/div[6]/div[
 i_am_lfm = browser.find_element_by_xpath(".//*[@id='selectLF']/option[3]").click()
 
 # choose activity from list
-select_activity = browser.find_element_by_xpath(".//*[@id='selectActivity']/optgroup[7]/option[2]").click()
+select_activity = browser.find_element_by_xpath(".//*[@id='selectActivity']/optgroup[9]/option[5]").click()
 
 # write description for activity chosen
 description = browser.find_element_by_xpath(".//*[@id='textComment']")
-description.send_keys("LFM +2.0KD player looking to help 2 others get to the LIGHTHOUSE! Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
+description.send_keys("DAUGHTERS: Need 3 +305's with HM exp and ToM. Message and Friend Request me on PSN to Join! PSN = Conscious_Acts")
 
 list_me = browser.find_element_by_xpath(".//*[@id='listMeForm']").click()
 
 time.sleep(120)
 browser.quit()
 
-print("Script completed at:\n")
+print("Script completed at:")
 print datetime.datetime.now()
 print("Opening next script now...\n")
 
-#import kingsfallhmfreshlfmcom
+#import ironbannerlfmcom

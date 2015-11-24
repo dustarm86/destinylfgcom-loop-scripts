@@ -11,9 +11,15 @@ import ironbannerlfmcom
 x = 9
 while x == 9:
     execfile("toolfmcom.py")
-    execfile("kingsfallhmfreshlfmcom.py")
-    execfile("oryxhmlfgcom.py")
     execfile("ironbannerlfmcom.py")
+    execfile("kingsfallhmfreshlfmcom.py")
+    execfile("warpriestlfmcom.py")
+    execfile("golgorothhmlfmcom.py")
+    execfile("daughtershmlfmcom.py")
+    execfile("oryxhmlfgcom.py")
+
+
+
 
 
 
